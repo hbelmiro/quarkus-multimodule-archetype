@@ -1,0 +1,20 @@
+= quarkus-multimodule-archetype
+
+== Install
+
+[source,shell]
+----
+mvn clean install
+----
+
+== Usage
+
+Run the following command:
+
+[source,shell]
+----
+mvn archetype:generate \
+    -DarchetypeGroupId=com.thegreatapi \
+    -DarchetypeArtifactId=quarkus-multimodule-archetype \
+    -DarchetypeVersion=1.0.0-SNAPSHOT
+----
