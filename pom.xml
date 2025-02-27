@@ -8,16 +8,6 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
-    <properties>
-        <!-- Properties for dependabot. Should be replaced manually in src/main/resources/archetype-resources/pom.xml-->
-        <compiler-plugin.version>3.8.1</compiler-plugin.version>
-        <maven.compiler.release>11</maven.compiler.release>
-        <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
-        <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-        <quarkus.platform.version>2.14.0.Final</quarkus.platform.version>
-        <surefire-plugin.version>3.0.0-M7</surefire-plugin.version>
-    </properties>
-
     <name>quarkus-multimodule-archetype</name>
 
     <build>
